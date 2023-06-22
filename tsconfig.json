@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "es6",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "outDir": "dist",
+        "rootDir": "src",
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "esnext"
+        ],
+        "esModuleInterop": true
+    },
+    "include": [
+        "src/**/*",
+        "index.ts"
+    ]
+}
